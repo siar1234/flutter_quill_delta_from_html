@@ -124,6 +124,7 @@ class HtmlToDelta {
 
     for (int i = 0; i < nodesToProcess.length; i++) {
       dom.Node node = nodesToProcess[i];
+      var isCustomBlock = false;
       //first just verify if the customBlocks aren't empty and then store on them to
       //validate if one of them make match with the current Node
       if (customBlocks != null &&
@@ -135,9 +136,13 @@ class HtmlToDelta {
             operations.forEach((Operation op) {
               delta.insert(op.data, op.attributes);
             });
+            isCustomBlock = true;
             continue;
           }
         }
+      }
+      if(isCustomBlock) {
+        continue;
       }
       final dom.Node? nextNode = nodesToProcess.elementAtOrNull(i + 1);
 
