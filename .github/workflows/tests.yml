@@ -25,6 +25,6 @@ jobs:
       - name: Install Flutter dependencies
         run: flutter pub get
       
-      - name: Run flutter_quill_delta_from_html tests
+      - name: Run custom_quill_delta_from_html tests
         run: flutter test
 

@@ -64,13 +64,13 @@ Add the dependency to your pubspec.yaml:
 
 ```yaml
 dependencies:
-  flutter_quill_delta_from_html: <lastest_version>
+  custom_quill_delta_from_html: <lastest_version>
 ```
 
 Then, import the package and use it in your Flutter application:
 
 ```dart
-import 'package:flutter_quill_delta_from_html/flutter_quill_delta_from_html.dart';
+import 'package:custom_quill_delta_from_html/custom_quill_delta_from_html.dart';
 
 void main() {
   String htmlContent = '<p style="line-height: 2.0">Hello, <b>world</b>!</p>';
@@ -89,7 +89,7 @@ void main() {
 First you need to define your own `CustomHtmlPart`
 
 ```dart
-import 'package:flutter_quill_delta_from_html/flutter_quill_delta_from_html.dart';
+import 'package:custom_quill_delta_from_html/custom_quill_delta_from_html.dart';
 import 'package:html/dom.dart' as dom;
 
 /// Custom block handler for <pullquote> elements.
@@ -139,7 +139,7 @@ class PullquoteBlock extends CustomHtmlPart {
 After, put your `PullquoteBlock` to `HtmlToDelta` using the param `customBlocks`
 
 ```dart
-import 'package:flutter_quill_delta_from_html/flutter_quill_delta_from_html.dart';
+import 'package:custom_quill_delta_from_html/custom_quill_delta_from_html.dart';
 
 void main() {
   // Example HTML snippet
@@ -202,6 +202,6 @@ abstract class HtmlOperations {
 
 ## Contributions
 
-If you find a bug or want to add a new feature, please open an issue or submit a pull request on the [GitHub repository](https://github.com/CatHood0/flutter_quill_delta_from_html).
+If you find a bug or want to add a new feature, please open an issue or submit a pull request on the [GitHub repository](https://github.com/CatHood0/custom_quill_delta_from_html).
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/CatHood0/flutter_quill_delta_from_html/blob/Main/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/CatHood0/custom_quill_delta_from_html/blob/Main/LICENSE) file for details.

@@ -1,23 +1,23 @@
 ## 1.5.3
 
 * Feat: support to detect line height css variable and setting custom values
-* Feat: Add support for italic, underline, line-through and bold from CSS styling by @lecuivre-alban in https://github.com/CatHood0/flutter_quill_delta_from_html/pull/29
-* Refactor: Safely access 'last' element in operations by @nikiforosper in https://github.com/CatHood0/flutter_quill_delta_from_html/pull/28
-* Feat: CSS named color support by @SlickSlime in https://github.com/CatHood0/flutter_quill_delta_from_html/pull/27
-* Fix: line-height css variable issue [#21](https://github.com/CatHood0/flutter_quill_delta_from_html/issues/21)
+* Feat: Add support for italic, underline, line-through and bold from CSS styling by @lecuivre-alban in https://github.com/CatHood0/custom_quill_delta_from_html/pull/29
+* Refactor: Safely access 'last' element in operations by @nikiforosper in https://github.com/CatHood0/custom_quill_delta_from_html/pull/28
+* Feat: CSS named color support by @SlickSlime in https://github.com/CatHood0/custom_quill_delta_from_html/pull/27
+* Fix: line-height css variable issue [#21](https://github.com/CatHood0/custom_quill_delta_from_html/issues/21)
 
 ## New Contributors
-* @lecuivre-alban made their first contribution in https://github.com/CatHood0/flutter_quill_delta_from_html/pull/29
-* @nikiforosper made their first contribution in https://github.com/CatHood0/flutter_quill_delta_from_html/pull/28
-* @SlickSlime made their first contribution in https://github.com/CatHood0/flutter_quill_delta_from_html/pull/27
+* @lecuivre-alban made their first contribution in https://github.com/CatHood0/custom_quill_delta_from_html/pull/29
+* @nikiforosper made their first contribution in https://github.com/CatHood0/custom_quill_delta_from_html/pull/28
+* @SlickSlime made their first contribution in https://github.com/CatHood0/custom_quill_delta_from_html/pull/27
 
 ## 1.5.2
 
-* Feat: Handle table tags / handle line-height exceptions (i.e. inherit) by @mtallenca in https://github.com/CatHood0/flutter_quill_delta_from_html/pull/25
+* Feat: Handle table tags / handle line-height exceptions (i.e. inherit) by @mtallenca in https://github.com/CatHood0/custom_quill_delta_from_html/pull/25
 
 ## 1.5.1
 
-* Feat: add `isBlockValidator` for Block Override decision [#23](https://github.com/CatHood0/flutter_quill_delta_from_html/pull/23)
+* Feat: add `isBlockValidator` for Block Override decision [#23](https://github.com/CatHood0/custom_quill_delta_from_html/pull/23)
 
 ## 1.5.0
 
@@ -25,27 +25,27 @@
 
 ## 1.4.5
 
-* Fix: paragraph wrong breaks and weird trim() of some text elements by @CatHood0 in https://github.com/CatHood0/flutter_quill_delta_from_html/pull/15
+* Fix: paragraph wrong breaks and weird trim() of some text elements by @CatHood0 in https://github.com/CatHood0/custom_quill_delta_from_html/pull/15
 
-**Full Changelog**: https://github.com/CatHood0/flutter_quill_delta_from_html/compare/V-1.4.3...V-1.4.5
+**Full Changelog**: https://github.com/CatHood0/custom_quill_delta_from_html/compare/V-1.4.3...V-1.4.5
 
 ## 1.4.3
 
-* Textcolor on paste of clipboard text showing wrong color by @SC8885 in https://github.com/CatHood0/flutter_quill_delta_from_html/pull/13
+* Textcolor on paste of clipboard text showing wrong color by @SC8885 in https://github.com/CatHood0/custom_quill_delta_from_html/pull/13
 
 ## New Contributors
-* @SC8885 made their first contribution in https://github.com/CatHood0/flutter_quill_delta_from_html/pull/13
+* @SC8885 made their first contribution in https://github.com/CatHood0/custom_quill_delta_from_html/pull/13
 
 ## 1.4.2
 
-* chore(deps): improve dependencies constraints for compatibility by @EchoEllet in https://github.com/CatHood0/flutter_quill_delta_from_html/pull/11
-* Added exception handling to color parsing by @mtallenca in https://github.com/CatHood0/flutter_quill_delta_from_html/pull/12
+* chore(deps): improve dependencies constraints for compatibility by @EchoEllet in https://github.com/CatHood0/custom_quill_delta_from_html/pull/11
+* Added exception handling to color parsing by @mtallenca in https://github.com/CatHood0/custom_quill_delta_from_html/pull/12
 
 ## New Contributors
-* @EchoEllet made their first contribution in https://github.com/CatHood0/flutter_quill_delta_from_html/pull/11
-* @mtallenca made their first contribution in https://github.com/CatHood0/flutter_quill_delta_from_html/pull/12
+* @EchoEllet made their first contribution in https://github.com/CatHood0/custom_quill_delta_from_html/pull/11
+* @mtallenca made their first contribution in https://github.com/CatHood0/custom_quill_delta_from_html/pull/12
 
-**Full Changelog**: https://github.com/CatHood0/flutter_quill_delta_from_html/compare/V-1.4.1...V-1.4.2
+**Full Changelog**: https://github.com/CatHood0/custom_quill_delta_from_html/compare/V-1.4.1...V-1.4.2
 
 ## 1.4.1
 
@@ -55,11 +55,11 @@
 
 ## 1.4.0
 
-* feat: made text trimming optional by @raimkulovr in https://github.com/CatHood0/flutter_quill_delta_from_html/pull/7
+* feat: made text trimming optional by @raimkulovr in https://github.com/CatHood0/custom_quill_delta_from_html/pull/7
 * feat: ability to replace new lines to `<br>`
 
 ## New Contributors
-* @raimkulovr made their first contribution in https://github.com/CatHood0/flutter_quill_delta_from_html/pull/7
+* @raimkulovr made their first contribution in https://github.com/CatHood0/custom_quill_delta_from_html/pull/7
 
 ## 1.3.13
 

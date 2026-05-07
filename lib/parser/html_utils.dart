@@ -1,5 +1,5 @@
-import 'package:flutter_quill_delta_from_html/parser/indent_parser.dart';
-import 'package:flutter_quill_delta_from_html/parser/typedef/typedefs.dart';
+import 'package:custom_quill_delta_from_html/parser/indent_parser.dart';
+import 'package:custom_quill_delta_from_html/parser/typedef/typedefs.dart';
 
 import 'colors.dart';
 import 'font_size_parser.dart';

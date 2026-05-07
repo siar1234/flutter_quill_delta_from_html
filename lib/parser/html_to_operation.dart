@@ -1,7 +1,7 @@
 import 'package:dart_quill_delta/dart_quill_delta.dart';
-import 'package:flutter_quill_delta_from_html/parser/extensions/node_ext.dart';
-import 'package:flutter_quill_delta_from_html/parser/html_utils.dart';
-import 'package:flutter_quill_delta_from_html/parser/node_processor.dart';
+import 'package:custom_quill_delta_from_html/parser/extensions/node_ext.dart';
+import 'package:custom_quill_delta_from_html/parser/html_utils.dart';
+import 'package:custom_quill_delta_from_html/parser/node_processor.dart';
 import 'package:html/dom.dart' as dom;
 
 import 'custom_html_part.dart';

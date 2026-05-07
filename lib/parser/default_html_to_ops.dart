@@ -1,10 +1,10 @@
 import 'package:dart_quill_delta/dart_quill_delta.dart';
-import 'package:flutter_quill_delta_from_html/parser/extensions/node_ext.dart';
-import 'package:flutter_quill_delta_from_html/parser/html_to_operation.dart';
-import 'package:flutter_quill_delta_from_html/parser/html_utils.dart';
-import 'package:flutter_quill_delta_from_html/parser/typedef/typedefs.dart';
+import 'package:custom_quill_delta_from_html/parser/extensions/node_ext.dart';
+import 'package:custom_quill_delta_from_html/parser/html_to_operation.dart';
+import 'package:custom_quill_delta_from_html/parser/html_utils.dart';
+import 'package:custom_quill_delta_from_html/parser/typedef/typedefs.dart';
 import 'package:html/dom.dart' as dom;
-import 'package:flutter_quill_delta_from_html/parser/node_processor.dart';
+import 'package:custom_quill_delta_from_html/parser/node_processor.dart';
 
 /// Default implementation of `HtmlOperations` for converting common HTML to Delta operations.
 ///
