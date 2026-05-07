@@ -100,7 +100,7 @@ class HtmlToDelta {
   /// final delta = converter.convert('<p>Hello <strong>world</strong></p>');
   /// print(delta.toJson()); // Output: [{"insert":"Hello "},{"insert":"world","attributes":{"bold":true}},{"insert":"\n"}]
   /// ```
-  Delta convert(
+  Delta convertDelta(
     String htmlText, {
     bool transformTableAsEmbed = false,
   }) {
