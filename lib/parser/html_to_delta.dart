@@ -268,7 +268,7 @@ class HtmlToDelta {
           delta.insert('\n');
         }
       }
-      if(node.children.isEmpty && node is dom.Element && node.localName == "p") {
+      if(node.children.isEmpty && node is dom.Element && (node.localName == "p" || node.localName == "br")) {
         delta.insert("\n");
       }
       final bool? shouldInsertNewLine = shouldInsertANewLine?.call(node);
